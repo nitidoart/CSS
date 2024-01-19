@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42C920;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+}
