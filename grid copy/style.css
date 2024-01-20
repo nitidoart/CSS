@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    background-color: yellowgreen;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 100px);
+     /*justify-content: end;/horizontal mis elementos del grid ocupan menos espacio del contenedor principal, emtonces los puedo acomodar dentro de este */
+    /*align-content: end; alineacion vertical */
+    place-content: center center; /* alinea y justifica */
+    gap: 10px;
+}
+
+div {
+    background-color: steelblue;
+    border: solid 3px rgb(59, 0, 59);
+    margin: 2px;
+}
