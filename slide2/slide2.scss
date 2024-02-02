@@ -1,0 +1,42 @@
+/* .container {
+    display: flex;
+    height: 500px;
+    width: 80%;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+  
+    &::-webkit-scrollbar {
+      display: none; 
+    }
+  
+    img {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+   */
+   .container {
+    display: flex;
+    height: 500px;
+    width: 80%;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+  
+    scroll-snap-type: x mandatory;
+
+    &::-webkit-scrollbar {
+      display: none; 
+    }
+  
+    img {
+      flex: 0 0 auto;
+      width: 100%;
+
+      scroll-snap-align: center;
+    }
+  }
+  
