@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +10,103 @@
     <meta property="og:image" content="/image/image.jpg">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Portafolio</title>
+    <title>Perfil Profesional - Diseñador Gráfico</title>
+   
     <!-- Acá van los links a los css que te darán estilos, uno general y otro particular -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/styles/index.css">
 </head>
-
 <body>
+    <!-- Cabecera principal -->
+    <header>
+        <h1>Perfil Profesional de [Tu Nombre]</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Sección principal de presentación -->
+    <main>
+        <!-- Sección "Sobre Mí" -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un diseñador gráfico con más de [X] años de experiencia en la creación de identidades visuales, diseño web, y material de marketing. Mi pasión por el diseño se refleja en cada proyecto que emprendo, buscando siempre innovar y crear soluciones visuales efectivas.</p>
+        </section>
+
+        <!-- Sección "Tecnologías" -->
+        <section id="tecnologias">
+            <h2>Tecnologías que manejo</h2>
+            <div class="tarjetas-tecnologias">
+                <article class="tarjeta">
+                    <img src="logo-photoshop.png" alt="Logo de Photoshop">
+                    <h3>Adobe Photoshop</h3>
+                </article>
+                <article class="tarjeta">
+                    <img src="logo-illustrator.png" alt="Logo de Illustrator">
+                    <h3>Adobe Illustrator</h3>
+                </article>
+                <article class="tarjeta">
+                    <img src="logo-indesign.png" alt="Logo de InDesign">
+                    <h3>Adobe InDesign</h3>
+                </article>
+                <article class="tarjeta">
+                    <img src="logo-figma.png" alt="Logo de Figma">
+                    <h3>Figma</h3>
+                </article>
+                <!-- Agrega más tarjetas según sea necesario -->
+            </div>
+        </section>
+
+        <!-- Sección "Portafolio" -->
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <p>Aquí puedes ver algunos de mis proyectos destacados. Cada proyecto ha sido seleccionado para mostrar mis habilidades en diseño gráfico y mi enfoque en la solución de problemas visuales.</p>
+            <figure>
+                <img src="proyecto1.png" alt="Proyecto 1">
+                <figcaption>Descripción breve del Proyecto 1.</figcaption>
+            </figure>
+            <figure>
+                <img src="proyecto2.png" alt="Proyecto 2">
+                <figcaption>Descripción breve del Proyecto 2.</figcaption>
+            </figure>
+            <!-- Agrega más proyectos según sea necesario -->
+        </section>
+
+        <!-- Sección "Contacto" -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si estás interesado en colaborar o simplemente quieres decir hola, no dudes en contactarme a través del siguiente formulario.</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
-
 </html>
